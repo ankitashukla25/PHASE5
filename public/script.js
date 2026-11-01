@@ -21,7 +21,7 @@ submitBtn.addEventListener("click", async () => {
 
     try {
         // Send request to Express backend
-        const response = await fetch("http://localhost:3000/ask", {
+        const response = await fetch("/ask", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
